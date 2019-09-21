@@ -1,0 +1,35 @@
+<!--index.wxml-->
+<swiper indicator-dots="{{true}}" circular autoplay="{{true}}" interval="{{5000}}" duration="{{500}}">
+    <swiper-item>
+      <image class="swiper-image" src="../../uploads/slide_1.jpg" />
+    </swiper-item>
+     <swiper-item>
+      <image class="swiper-image" src="../../uploads/slide_2.jpg" />
+    </swiper-item>
+     <swiper-item>
+      <image class="swiper-image" src="../../uploads/slide_3.jpg" />
+    </swiper-item>
+     <swiper-item>
+      <image class="swiper-image" src="../../uploads/slide_4.jpg" />
+    </swiper-item>
+</swiper>
+<!-- 图文详情 -->
+<view class="title">乐园活动</view>
+<!-- 活动列表 -->
+<view class='item'>
+  <!-- 图片 -->
+  <navigator url="../../pages/logs/logs.wxml">
+    <image src="../../uploads/item_1.png"></image>
+  </navigator>
+  <!-- 文字信息 -->
+  <view class="info">
+  <!-- 文字 -->
+  <view class="name">疯狂的红包,不一样的撕名牌,独特的亲子活动</view>
+  <view class="extra">
+    <text>2000人报名</text> 
+    <!-- text 相当于html 中的行内块元素 -->
+    <text>本周六开始</text>
+  </view>
+  <view class="status">免费</view>
+  </view>
+</view>
